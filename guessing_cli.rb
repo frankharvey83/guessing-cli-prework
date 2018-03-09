@@ -25,7 +25,7 @@ def run_guessing_game
        elsif guess.to_i == computer_num
            puts "You guessed the correct number!"
          elsif guess.to_i != computer_num
-           puts "The computer guessed #{computer_number}."
+           puts "The computer guessed #{computer_num}."
          end
        end
      end
