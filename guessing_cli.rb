@@ -15,3 +15,4 @@ elsif response.to_i != random_number
   end
 end
 end
+end
