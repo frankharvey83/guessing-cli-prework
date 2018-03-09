@@ -12,3 +12,4 @@ elsif response.to_i == random_number
 elsif response.to_i != random_number
   puts "The computer guessed #{random_number}."
     end
+end
