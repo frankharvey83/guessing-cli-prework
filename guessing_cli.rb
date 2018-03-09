@@ -6,7 +6,6 @@ random_number = 1+rand(6)
 
 if response == "exit"
   puts "Goodbye!"
-  break
 elsif response.to_i == random_number
   puts "You guessed the correct number!"
 elsif response.to_i != random_number
