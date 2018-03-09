@@ -10,7 +10,7 @@ if response == "exit"
   break
 elsif response.to_i == random_number
   puts "You guessed the correct number!"
-elsif response.to_i != randsom_number
+elsif response.to_i != random_number
   puts "The computer guessed #{random_number}."
 end
 end
